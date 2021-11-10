@@ -1,0 +1,1330 @@
+{
+  "intents": [
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "afternoon"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hii"
+        },
+        {
+          "text": "hy"
+        },
+        {
+          "text": "morning"
+        },
+        {
+          "text": "movie"
+        },
+        {
+          "text": "movie list"
+        },
+        {
+          "text": "movies list"
+        },
+        {
+          "text": "tickets"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Seats",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "4"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Selectseats",
+      "examples": [
+        {
+          "text": "Asain Sridevi Mall"
+        },
+        {
+          "text": "Asian Cinemas-Vijaya"
+        },
+        {
+          "text": "Bhavani"
+        },
+        {
+          "text": "Radhika Theatre"
+        },
+        {
+          "text": "S2 Cinemas"
+        },
+        {
+          "text": "Shambavi Theatre"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thankyou",
+      "examples": [
+        {
+          "text": "ok"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "Thank you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Time",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "10"
+        },
+        {
+          "text": "10AM"
+        },
+        {
+          "text": "11"
+        },
+        {
+          "text": "11am"
+        },
+        {
+          "text": "12pm"
+        },
+        {
+          "text": "1pm"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "2pm"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "3pm"
+        },
+        {
+          "text": "4"
+        },
+        {
+          "text": "4."
+        },
+        {
+          "text": "4pm"
+        },
+        {
+          "text": "5"
+        },
+        {
+          "text": "5pm"
+        },
+        {
+          "text": "6"
+        },
+        {
+          "text": "6pm"
+        },
+        {
+          "text": "7"
+        },
+        {
+          "text": "7pm"
+        },
+        {
+          "text": "8"
+        },
+        {
+          "text": "8pm"
+        },
+        {
+          "text": "9"
+        },
+        {
+          "text": "9pm"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "day",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "10nov",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "11nov",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "12nov",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13nov",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "7nov",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "8nov",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "9nov",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Movie",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Enemy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eternals",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "God Father",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Manchi Rojulochaie",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peddanna",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Repubic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Romantic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sooryavanshi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Varudu Kaavalenu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VarunDoctor",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "region",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Hanamkonda",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kazipet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Warangal",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1635171492396",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://cdn.mos.cms.futurecdn.net/ApmKEjj59UqmXfMG5nVsEC-970-80.jpg.webp",
+            "response_type": "image"
+          },
+          {
+            "title": "Select Region:",
+            "options": [
+              {
+                "label": "Warangal",
+                "value": {
+                  "input": {
+                    "text": "Warangal"
+                  }
+                }
+              },
+              {
+                "label": "Hanamkonda",
+                "value": {
+                  "input": {
+                    "text": "Hanamkonda"
+                  }
+                }
+              },
+              {
+                "label": "Kazipet",
+                "value": {
+                  "input": {
+                    "text": "Kazipet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Movie:Eternals",
+      "dialog_node": "node_10_1635156946371",
+      "previous_sibling": "node_3_1635156805051"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ticket details are sent to Your Mobile number.\n complete the payment and book the slot .\nThank you for using the service."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_10_1635168997876",
+      "previous_sibling": "node_8_1635168903754"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose Theatre",
+            "options": [
+              {
+                "label": "S2 Cinemas",
+                "value": {
+                  "input": {
+                    "text": "S2 Cinemas"
+                  }
+                }
+              },
+              {
+                "label": "Radhika Theatre",
+                "value": {
+                  "input": {
+                    "text": "Radhika Theatre"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@region:Warangal",
+      "dialog_node": "node_10_1635180834643",
+      "previous_sibling": "node_1_1635157557534"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tickets are Available from 10am-9pm\nEnter the Time:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@day:9nov",
+      "dialog_node": "node_10_1635320564544",
+      "previous_sibling": "node_2_1635320567793"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.mirchi9.com/wp-content/uploads/2021/10/Republic-Telugu-Movie-Review-Ratings.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select Region:",
+            "options": [
+              {
+                "label": "Warangal",
+                "value": {
+                  "input": {
+                    "text": "Warangal"
+                  }
+                }
+              },
+              {
+                "label": "Hanamkonda",
+                "value": {
+                  "input": {
+                    "text": "Hanamkonda"
+                  }
+                }
+              },
+              {
+                "label": "Kazipet",
+                "value": {
+                  "input": {
+                    "text": "Kazipet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Movie:Repubic",
+      "dialog_node": "node_1_1635157557534",
+      "previous_sibling": "node_7_1635157373298"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://static.moviecrow.com/marquee/doctor-to-release-in-telugu-as-varun-doctor/189574_thumb_665.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select Region:",
+            "options": [
+              {
+                "label": "Warangal",
+                "value": {
+                  "input": {
+                    "text": "Warangal"
+                  }
+                }
+              },
+              {
+                "label": "Hanamkonda",
+                "value": {
+                  "input": {
+                    "text": "Hanamkonda"
+                  }
+                }
+              },
+              {
+                "label": "Kazipet",
+                "value": {
+                  "input": {
+                    "text": "Kazipet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Movie:VarunDoctor",
+      "dialog_node": "node_1_1635178761193",
+      "previous_sibling": "node_9_1635152205208"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose Theatre",
+            "options": [
+              {
+                "label": "Shambavi Theatre",
+                "value": {
+                  "input": {
+                    "text": "Shambavi Theatre"
+                  }
+                }
+              },
+              {
+                "label": "Bhavani",
+                "value": {
+                  "input": {
+                    "text": "Bhavani"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@region:Kazipet",
+      "dialog_node": "node_1_1635181310794",
+      "previous_sibling": "node_2_1635180967939"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tickets are Available from 10am-9pm\nEnter the Time:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@day:11nov",
+      "dialog_node": "node_1_1635320557647",
+      "previous_sibling": "node_7_1635320561126"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose Theatre",
+            "options": [
+              {
+                "label": "Asian Sridevi Mall",
+                "value": {
+                  "input": {
+                    "text": "Asian Sridevi Mall"
+                  }
+                }
+              },
+              {
+                "label": "Asian Cinemas-Vijaya",
+                "value": {
+                  "input": {
+                    "text": "Asian Cinemas-Vijaya"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@region:Hanamkonda",
+      "dialog_node": "node_2_1635180967939",
+      "previous_sibling": "node_10_1635180834643"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tickets are Available from 10am-9pm\nEnter the Time:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@day:8nov",
+      "dialog_node": "node_2_1635320567793",
+      "previous_sibling": "node_9_1635320570874"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/peddanna-et00316299-03-11-2021-11-53-29.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": " Select Region:",
+            "options": [
+              {
+                "label": "Warangal",
+                "value": {
+                  "input": {
+                    "text": "Warangal"
+                  }
+                }
+              },
+              {
+                "label": "Hanamkonda",
+                "value": {
+                  "input": {
+                    "text": "Hanamkonda"
+                  }
+                }
+              },
+              {
+                "label": "Kazipet",
+                "value": {
+                  "input": {
+                    "text": "Kazipet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Movie:Peddanna",
+      "dialog_node": "node_3_1635156805051",
+      "previous_sibling": "node_6_1635156674327"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Select Number of Seats:",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Selectseats",
+      "dialog_node": "node_4_1635182107846",
+      "previous_sibling": "node_1_1635181310794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Enemy_%282021_film%29.jpg/220px-Enemy_%282021_film%29.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select Region:",
+            "options": [
+              {
+                "label": "Warangal",
+                "value": {
+                  "input": {
+                    "text": "Warangal"
+                  }
+                }
+              },
+              {
+                "label": "Hanamkonda",
+                "value": {
+                  "input": {
+                    "text": "Hanamkonda"
+                  }
+                }
+              },
+              {
+                "label": "Kazipet",
+                "value": {
+                  "input": {
+                    "text": "Kazipet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Movie:Enemy",
+      "dialog_node": "node_5_1635156302150",
+      "previous_sibling": "node_1_1635178761193"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Select the Day you want to watch  ",
+            "options": [
+              {
+                "label": "13nov",
+                "value": {
+                  "input": {
+                    "text": "13nov"
+                  }
+                }
+              },
+              {
+                "label": "7nov",
+                "value": {
+                  "input": {
+                    "text": "7nov"
+                  }
+                }
+              },
+              {
+                "label": "8nov",
+                "value": {
+                  "input": {
+                    "text": "8nov"
+                  }
+                }
+              },
+              {
+                "label": "9nov",
+                "value": {
+                  "input": {
+                    "text": "9nov"
+                  }
+                }
+              },
+              {
+                "label": "10nov",
+                "value": {
+                  "input": {
+                    "text": "10nov"
+                  }
+                }
+              },
+              {
+                "label": "11nov",
+                "value": {
+                  "input": {
+                    "text": "11nov"
+                  }
+                }
+              },
+              {
+                "label": "12nov",
+                "value": {
+                  "input": {
+                    "text": "12nov"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Seats",
+      "dialog_node": "node_5_1635158239885",
+      "previous_sibling": "node_4_1635182107846"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tickets are Available from 10am-9pm\nEnter the Time:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@day:13nov",
+      "dialog_node": "node_5_1635158301263",
+      "previous_sibling": "node_5_1635158239885"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.mirchi9.com/wp-content/uploads/2021/11/Manchi-Rojulochaie-Movie-Review.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": " Select Region:",
+            "options": [
+              {
+                "label": "Warangal",
+                "value": {
+                  "input": {
+                    "text": "Warangal"
+                  }
+                }
+              },
+              {
+                "label": "Hanamkonda",
+                "value": {
+                  "input": {
+                    "text": "Hanamkonda"
+                  }
+                }
+              },
+              {
+                "label": "Kazipet",
+                "value": {
+                  "input": {
+                    "text": "Kazipet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Movie:(Manchi Rojulochaie)",
+      "dialog_node": "node_6_1635156674327",
+      "previous_sibling": "node_8_1635156492591"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/sooryavanshi-et00097952-27-10-2021-05-17-20.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "  Select Region:",
+            "options": [
+              {
+                "label": "Warangal",
+                "value": {
+                  "input": {
+                    "text": "Warangal"
+                  }
+                }
+              },
+              {
+                "label": "Hanamkonda",
+                "value": {
+                  "input": {
+                    "text": "Hanamkonda"
+                  }
+                }
+              },
+              {
+                "label": "Kazipet",
+                "value": {
+                  "input": {
+                    "text": "Kazipet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Movie:Sooryavanshi",
+      "dialog_node": "node_6_1635157087294",
+      "previous_sibling": "node_6_1635179269063"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://cdn.pixabay.com/photo/2019/02/19/19/45/thumbs-up-4007573__480.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#thankyou",
+      "dialog_node": "node_6_1635171492396",
+      "previous_sibling": "node_10_1635168997876"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://moviekoop.com/Images/Cover_Photos/romantic.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select Region:",
+            "options": [
+              {
+                "label": "Warangal",
+                "value": {
+                  "input": {
+                    "text": "Warangal"
+                  }
+                }
+              },
+              {
+                "label": "Hanamkonda",
+                "value": {
+                  "input": {
+                    "text": "Hanamkonda"
+                  }
+                }
+              },
+              {
+                "label": "Kazipet",
+                "value": {
+                  "input": {
+                    "text": "Kazipet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Movie:Romantic",
+      "dialog_node": "node_6_1635179269063",
+      "previous_sibling": "node_10_1635156946371"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://images-na.ssl-images-amazon.com/images/I/710HfEfGrrL._SX300_.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select Region:",
+            "options": [
+              {
+                "label": "Warangal",
+                "value": {
+                  "input": {
+                    "text": "Warangal"
+                  }
+                }
+              },
+              {
+                "label": "Hanamkonda",
+                "value": {
+                  "input": {
+                    "text": "Hanamkonda"
+                  }
+                }
+              },
+              {
+                "label": "Kazipet",
+                "value": {
+                  "input": {
+                    "text": "Kazipet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Movie:(God Father)",
+      "dialog_node": "node_7_1635157373298",
+      "previous_sibling": "node_6_1635157087294"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tickets are Available from 10am-9pm\nEnter the Time:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@day:12nov",
+      "dialog_node": "node_7_1635320553989",
+      "previous_sibling": "node_1_1635320557647"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tickets are Available from 10am-9pm\nEnter the Time:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@day:10nov",
+      "dialog_node": "node_7_1635320561126",
+      "previous_sibling": "node_10_1635320564544"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://static.toiimg.com/thumb/msid-79257498,width-219,height-317,imgsize-79778/79257498.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select Region:",
+            "options": [
+              {
+                "label": "Warangal",
+                "value": {
+                  "input": {
+                    "text": "Warangal"
+                  }
+                }
+              },
+              {
+                "label": "Hanamkonda",
+                "value": {
+                  "input": {
+                    "text": "Hanamkonda"
+                  }
+                }
+              },
+              {
+                "label": "Kazipet",
+                "value": {
+                  "input": {
+                    "text": "Kazipet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Movie:(Varudu Kaavalenu)",
+      "dialog_node": "node_8_1635156492591",
+      "previous_sibling": "node_5_1635156302150"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok Enter your Mobile Number"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Time",
+      "dialog_node": "node_8_1635168903754",
+      "previous_sibling": "node_7_1635320553989"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose Any Movie from the List :",
+            "options": [
+              {
+                "label": "VarunDoctor",
+                "value": {
+                  "input": {
+                    "text": "VarunDoctor"
+                  }
+                }
+              },
+              {
+                "label": "Eternals",
+                "value": {
+                  "input": {
+                    "text": "Eternals"
+                  }
+                }
+              },
+              {
+                "label": "Enemy",
+                "value": {
+                  "input": {
+                    "text": "Enemy"
+                  }
+                }
+              },
+              {
+                "label": "Manchi Rojulochaie",
+                "value": {
+                  "input": {
+                    "text": "Manchi Rojulochaie"
+                  }
+                }
+              },
+              {
+                "label": "Romantic",
+                "value": {
+                  "input": {
+                    "text": "Romantic"
+                  }
+                }
+              },
+              {
+                "label": "Sooryavanshi",
+                "value": {
+                  "input": {
+                    "text": "Sooryavanshi"
+                  }
+                }
+              },
+              {
+                "label": "Varudu Kaavalenu",
+                "value": {
+                  "input": {
+                    "text": "Varudu Kaavalenu"
+                  }
+                }
+              },
+              {
+                "label": "Peddanna",
+                "value": {
+                  "input": {
+                    "text": "Peddanna"
+                  }
+                }
+              },
+              {
+                "label": "God Father",
+                "value": {
+                  "input": {
+                    "text": "God Father"
+                  }
+                }
+              },
+              {
+                "label": "Repubic",
+                "value": {
+                  "input": {
+                    "text": "Repubic"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Greetings",
+      "dialog_node": "node_9_1635152205208",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tickets are Available from 10am-9pm\nEnter the Time:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@day:7nov",
+      "dialog_node": "node_9_1635320570874",
+      "previous_sibling": "node_5_1635158301263"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello I am Here to help you book movie tickets"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
